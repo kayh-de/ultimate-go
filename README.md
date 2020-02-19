@@ -1,11 +1,23 @@
-# Ultimate Go
-
+# Ultimate Go study guide
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/hoanhan101/ultimate-go)
 ](https://goreportcard.com/report/github.com/hoanhan101/ultimate-go)
-[![hackernews](https://img.shields.io/badge/hackernews-400%2B-orange)](https://news.ycombinator.com/item?id=20701671)
-[![reddit](https://img.shields.io/badge/reddit-150%2B-orange)](https://www.reddit.com/r/golang/comments/cqqi9h/ultimate_go_study_guides_with_heavily_documented/)
+![](https://img.shields.io/github/stars/hoanhan101/ultimate-go)
+![](https://img.shields.io/github/forks/hoanhan101/ultimate-go)
+[![hackernews](https://img.shields.io/badge/hackernews-450%2B-orange)](https://news.ycombinator.com/item?id=20701671)
+[![r/golang](https://img.shields.io/badge/r/golang-255%2B-orange)](https://www.reddit.com/r/golang/comments/cqqi9h/ultimate_go_study_guides_with_heavily_documented/)
+[![r/compsci](https://img.shields.io/badge/r/compsci-60%2B-orange)](https://www.reddit.com/r/compsci/comments/cr3jzh/ultimate_go_study_guides_with_heavily_documented/)
+[![r/programming](https://img.shields.io/badge/r/programming-40%2B-orange)](https://www.reddit.com/r/programming/comments/cr3gqu/ultimate_go_study_guides_with_heavily_documented/)
 
+> [101+ coding interview problems with detailed solutions, test cases, and program analysis →](https://github.com/hoanhan101/algo)
+
+> [Join my mailing list to get latest updates here →](https://tinyletter.com/hoanhan)
+
+<p align="center">
+  <img src="gopher.png" alt="gopher" width="300"/>
+</p>
+
+## Motivation
 
 This repo contains my notes on learning Go and computer systems. Different people have different
 learning style. For me, I learn best by doing and walking through examples. Hence, I am trying to
@@ -15,27 +27,8 @@ the theories behind the scene.
 
 In the mix, I also include links to other articles that I find helpful.
 
-**References:**
-
-- [Ultimate Go
-  Programming](https://www.safaribooksonline.com/library/view/ultimate-go-programming/9780134757476/)
-- [ardanlabs/gotraining/topics/courses/go
-  ](https://github.com/ardanlabs/gotraining/blob/master/topics/courses/go/README.md)
-- [Computer Systems: A Programmer's
-  Perspective](https://www.amazon.com/Computer-Systems-Programmers-Perspective-3rd/dp/013409266X)
-
-## Project Status
-
-It is a work in progress.
-
-Below are the outline of the all topics. Normally, a topic is covered when there is a link, 
-or several links next to it.
-
-**Tasks**
-
-- [x] Phase 1: Finish Ultimate Go Programming's video lectures
-- [x] Phase 2: Fill in all the missing details using Ardan Labs's links and examples
-- [ ] Phase 3: Study Computer Systems book to reinforce the theory. Build more programs if needed.
+If you’re interested in getting updates for this, feel free to join my [mailing 
+list here →](https://tinyletter.com/hoanhan)
 
 ## Table of Contents 
 
@@ -103,7 +96,7 @@ or several links next to it.
     - [Error variables](go/design/error_2.go)
     - [Type as context](go/design/error_3.go)
     - [Behavior as context](go/design/error_4.go)
-    - [Finding the bug](go/design/error_5.go)
+    - [Finding the bug/pitfall of nil value of error interface](go/design/error_5.go)
     - [Wrapping Errors](go/design/error_6.go)
   - Packaging:
     [Guideline](https://github.com/ardanlabs/gotraining/blob/master/topics/go/design/packaging/README.md)
@@ -161,3 +154,17 @@ or several links next to it.
   - IO
   - Logging
   - Reflection
+
+## References
+
+- [Ultimate Go
+  Programming](https://www.safaribooksonline.com/library/view/ultimate-go-programming/9780134757476/)
+- [ardanlabs/gotraining/topics/courses/go
+  ](https://github.com/ardanlabs/gotraining/blob/master/topics/courses/go/README.md)
+- [Computer Systems: A Programmer's
+  Perspective](https://www.amazon.com/Computer-Systems-Programmers-Perspective-3rd/dp/013409266X)
+- [Free Gophers Pack](https://github.com/MariaLetta/free-gophers-pack)
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/hoanhan101/ultimate-go.svg)](https://starchart.cc/hoanhan101/ultimate-go)
